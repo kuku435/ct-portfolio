@@ -1,12 +1,13 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color:rgb(130, 156, 188)
+    color rgb(255, 255, 255)
+}
+
+.header {
+background-color: black;
 }
 
 h1 {
     color:rgb(55, 105, 150)
-}
-
-p, h2, h3 {
-    color:rgb(255, 255, 255)
 }
