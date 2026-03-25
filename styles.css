@@ -51,6 +51,41 @@ body {
     height: 300px;
 }
 
+.project1-card-container {
+    display: flex;
+    background-color: rgb(119, 141, 169);
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    width: 500px;
+    height: 300px;
+    margin: 20px;
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.project1-top {
+    border-radius: 22px 22px 0px 0px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('html, profile photo.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.project1-bottom {
+    border-radius: 0px 0px 22px 22px;
+    display: flex;
+    background-color: rgb(65, 90, 119);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 225px;
+}
+
 .footer-container {
     background-color: rgb(13, 27, 42);
     color: white;
