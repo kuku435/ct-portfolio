@@ -49,6 +49,15 @@ body {
     background-size: cover;
     background-position: center;
     height: 300px;
+    background-attachment: fixed;
+}
+
+.portfolio-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
 }
 
 .project1-card-container {
@@ -61,7 +70,7 @@ body {
     height: 300px;
     margin: 20px;
     border-radius: 30px;
-    padding: 20px;
+    padding: 10px;
 }
 
 .project1-top {
@@ -70,12 +79,193 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url('html, profile photo.png');
+    background-image: url(code2.jpg);
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
 }
 
 .project1-bottom {
+    border-radius: 0px 0px 22px 22px;
+    display: flex;
+    background-color: rgb(65, 90, 119);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 225px;
+}
+
+.project2-card-container {
+    display: flex;
+    background-color: rgb(119, 141, 169);
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    width: 500px;
+    height: 300px;
+    margin: 20px;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.project2-top {
+    border-radius: 22px 22px 0px 0px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(code2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.project2-bottom {
+    border-radius: 0px 0px 22px 22px;
+    display: flex;
+    background-color: rgb(65, 90, 119);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 225px;
+}
+
+.project3-card-container {
+    display: flex;
+    background-color: rgb(119, 141, 169);
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    width: 500px;
+    height: 300px;
+    margin: 20px;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.project3-top {
+    border-radius: 22px 22px 0px 0px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(code2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.project3-bottom {
+    border-radius: 0px 0px 22px 22px;
+    display: flex;
+    background-color: rgb(65, 90, 119);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 225px;
+}
+
+.project4-card-container {
+    display: flex;
+    background-color: rgb(119, 141, 169);
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    width: 500px;
+    height: 300px;
+    margin: 20px;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.project4-top {
+    border-radius: 22px 22px 0px 0px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(code2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.project4-bottom {
+    border-radius: 0px 0px 22px 22px;
+    display: flex;
+    background-color: rgb(65, 90, 119);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 225px;
+}
+
+.project5-card-container {
+    display: flex;
+    background-color: rgb(119, 141, 169);
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    width: 500px;
+    height: 300px;
+    margin: 20px;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.project5-top {
+    border-radius: 22px 22px 0px 0px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(code2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.project5-bottom {
+    border-radius: 0px 0px 22px 22px;
+    display: flex;
+    background-color: rgb(65, 90, 119);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 225px;
+}
+
+.project6-card-container {
+    display: flex;
+    background-color: rgb(119, 141, 169);
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    width: 500px;
+    height: 300px;
+    margin: 20px;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.project6-top {
+    border-radius: 22px 22px 0px 0px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(code2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.project6-bottom {
     border-radius: 0px 0px 22px 22px;
     display: flex;
     background-color: rgb(65, 90, 119);
