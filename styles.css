@@ -39,7 +39,7 @@ body {
     box-shadow: 0px 10px 10px rgba(39, 80, 168, 0.5);       
 }
 
-.intro {
+.homepage .intro {
     display: flex;
     flex-direction: column;
     justify-content: center;
