@@ -39,7 +39,7 @@ body {
     box-shadow: 0px 10px 10px rgba(39, 80, 168, 0.5);       
 }
 
-.homepage .intro {
+.intro {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -294,4 +294,94 @@ body {
 .footer-links img:hover {
     transform: scale(1.1);
     box-shadow: 0px 10px 10px rgba(39, 80, 168, 0.5);       
+}
+
+.p1-cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+
+.p1-card1-container {
+    display: flex;
+    background-color: rgb(119, 141, 169);
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    width: 850px;
+    height: 600px;
+    margin: 20px;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.p1-card1-top {
+    border-radius: 22px 22px 0px 0px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(code2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-size: 30px;
+}
+
+.p1-card1-bottom {
+    border-radius: 0px 0px 22px 22px;
+    display: flex;
+    background-color: rgb(65, 90, 119);
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 700px;
+    font-size: 20px;
+}
+
+.p1-card1-bottom h3{
+    font-size: 25px;
+}
+
+.p1-card2-container {
+    display: flex;
+    background-color: rgb(119, 141, 169);
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    width: 850px;
+    height: 600px;
+    margin: 20px;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.p1-card2-top {
+    border-radius: 22px 22px 0px 0px;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(code2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-size: 30px;
+}
+
+.p1-card2-bottom {
+    border-radius: 0px 0px 22px 22px;
+    display: flex;
+    background-color: rgb(65, 90, 119);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 700px;
+    font-size: 20px;
 }
