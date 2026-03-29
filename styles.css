@@ -27,81 +27,76 @@ body {
     margin: 30px;
 }
 
-.home-page-container {
-    display: flex;
-    align-items: center;
-    margin: 30px;
+.home-page-button {
+    background-color: rgb(65, 90, 119);
     border: 2px solid rgb(119, 141, 169);
     border-radius: 5px;
-    background-color: rgb(65, 90, 119);
-    padding: 15px;
-    justify-content: center;
-}
-
-.home-page-container:hover {
-    transform: scale(1.1);
-    background-color: rgb(119, 141, 169);
-    border: 2px solid rgb(65, 90, 119);    
-}
-
-.home-page {
     color: white;
-    text-decoration: none;
+    padding: 15px;
     font-size: 20px;
+    cursor: pointer;
+    box-shadow: 0px 5px 5px rgba(39, 80, 168, 0.5);
 }
 
-.home-page:hover {
+.home-page-button:hover {
+    background-color: rgb(119, 141, 169);
+    border: 2px solid rgb(65, 90, 119);
     transform: scale(1.1);
-    text-shadow: 0 0 10px #fff;
+    box-shadow: 0px 5px 5px rgba(110, 149, 235, 0.5);
 }
 
 .dropdown-button {
-  background-color: rgb(65, 90, 119);
-  border: 2px solid rgb(119, 141, 169);
-  border-radius: 5px;
-  color: white;
-  padding: 15px;
-  font-size: 20px;
-  cursor: pointer;
-  width: 150px;
+    background-color: rgb(65, 90, 119);
+    border: 2px solid rgb(119, 141, 169);
+    border-radius: 5px;
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+    cursor: pointer;
+    width: 150px;
+    box-shadow: 0px 5px 5px rgba(39, 80, 168, 0.5);
 }
 
 .header-dropdown {
-  position: relative;
-  display: inline-block; 
+    position: relative;
+    display: inline-block; 
 }
 
 .dropdown-links {
-  display: none;
-  position: absolute; 
-  background-color: rgb(65, 90, 119);
-  width: 150px;
-  border-radius: 10px;
-  border: 2px solid rgb(119, 141, 169);
-  z-index: 1; 
+    display: none;
+    position: absolute; 
+    background-color: rgb(65, 90, 119);
+    width: 150px;
+    border-radius: 10px;
+    border: 2px solid rgb(119, 141, 169);
+    z-index: 1; 
 }
 
 .dropdown-links a {
-  color: white;
-  padding: 14px 20px;
-  text-decoration: none;
-  display: block;
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    display: block;
 }
 
 .dropdown-links a:hover {
-  background-color: rgb(119, 141, 169);
-  border: 2px solid rgb(65, 90, 119);
-  border-radius: 10px;
+    background-color: rgb(119, 141, 169);
+    border: 2px solid rgb(65, 90, 119);
+    border-radius: 10px;
 }
 
 .header-dropdown:hover .dropdown-links {
-  display: block;
+    display: block;
 }
 
 .header-dropdown:hover .dropdown-button {
-  background-color: rgb(119, 141, 169);
-  border: 2px solid rgb(65, 90, 119);
-  transform: scale(1.1);
+    background-color: rgb(119, 141, 169);
+    border: 2px solid rgb(65, 90, 119);
+    transform: scale(1.1);
+}
+
+.dropdown-button:hover {
+    box-shadow: 0px 5px 5px rgba(110, 149, 235, 0.5);
 }
 
 .intro {
@@ -125,7 +120,7 @@ body {
     padding: 20px;
 }
 
-.project1-card-container {
+.project1-card-container, .project2-card-container, .project3-card-container, .project4-card-container, .project5-card-container, .project6-card-container {
     display: flex;
     background-color: rgb(119, 141, 169);
     flex-direction: column;
@@ -138,7 +133,12 @@ body {
     padding: 10px;
 }
 
-.project1-top {
+.project1-card-container:hover, .project2-card-container:hover, .project3-card-container:hover, .project4-card-container:hover, .project5-card-container:hover, .project6-card-container:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 5px 5px rgba(110, 149, 235, 0.5);
+}
+
+.project1-top, .project2-top, .project3-top, .project4-top, .project5-top, .project6-top {
     border-radius: 22px 22px 0px 0px;
     height: 75px;
     display: flex;
@@ -150,187 +150,7 @@ body {
     background-attachment: fixed;
 }
 
-.project1-bottom {
-    border-radius: 0px 0px 22px 22px;
-    display: flex;
-    background-color: rgb(65, 90, 119);
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    height: 225px;
-}
-
-.project2-card-container {
-    display: flex;
-    background-color: rgb(119, 141, 169);
-    flex-direction: column;
-    justify-content: center;
-    color: white;
-    width: 500px;
-    height: 300px;
-    margin: 20px;
-    border-radius: 30px;
-    padding: 10px;
-}
-
-.project2-top {
-    border-radius: 22px 22px 0px 0px;
-    height: 75px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url(code2.jpg);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-}
-
-.project2-bottom {
-    border-radius: 0px 0px 22px 22px;
-    display: flex;
-    background-color: rgb(65, 90, 119);
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    height: 225px;
-}
-
-.project3-card-container {
-    display: flex;
-    background-color: rgb(119, 141, 169);
-    flex-direction: column;
-    justify-content: center;
-    color: white;
-    width: 500px;
-    height: 300px;
-    margin: 20px;
-    border-radius: 30px;
-    padding: 10px;
-}
-
-.project3-top {
-    border-radius: 22px 22px 0px 0px;
-    height: 75px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url(code2.jpg);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-}
-
-.project3-bottom {
-    border-radius: 0px 0px 22px 22px;
-    display: flex;
-    background-color: rgb(65, 90, 119);
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    height: 225px;
-}
-
-.project4-card-container {
-    display: flex;
-    background-color: rgb(119, 141, 169);
-    flex-direction: column;
-    justify-content: center;
-    color: white;
-    width: 500px;
-    height: 300px;
-    margin: 20px;
-    border-radius: 30px;
-    padding: 10px;
-}
-
-.project4-top {
-    border-radius: 22px 22px 0px 0px;
-    height: 75px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url(code2.jpg);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-}
-
-.project4-bottom {
-    border-radius: 0px 0px 22px 22px;
-    display: flex;
-    background-color: rgb(65, 90, 119);
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    height: 225px;
-}
-
-.project5-card-container {
-    display: flex;
-    background-color: rgb(119, 141, 169);
-    flex-direction: column;
-    justify-content: center;
-    color: white;
-    width: 500px;
-    height: 300px;
-    margin: 20px;
-    border-radius: 30px;
-    padding: 10px;
-}
-
-.project5-top {
-    border-radius: 22px 22px 0px 0px;
-    height: 75px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url(code2.jpg);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-}
-
-.project5-bottom {
-    border-radius: 0px 0px 22px 22px;
-    display: flex;
-    background-color: rgb(65, 90, 119);
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    height: 225px;
-}
-
-.project6-card-container {
-    display: flex;
-    background-color: rgb(119, 141, 169);
-    flex-direction: column;
-    justify-content: center;
-    color: white;
-    width: 500px;
-    height: 300px;
-    margin: 20px;
-    border-radius: 30px;
-    padding: 10px;
-}
-
-.project6-top {
-    border-radius: 22px 22px 0px 0px;
-    height: 75px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-image: url(code2.jpg);
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-}
-
-.project6-bottom {
+.project1-bottom, .project2-bottom, .project3-bottom, .project4-bottom, .project5-bottom, .project6-bottom {
     border-radius: 0px 0px 22px 22px;
     display: flex;
     background-color: rgb(65, 90, 119);
