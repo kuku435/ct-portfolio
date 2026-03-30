@@ -6,6 +6,16 @@ body {
     padding: 0;
 }
 
+p, h3, ul, li {
+    font-family: "Itim", cursive;
+    font-style: normal;
+}
+
+h1 {
+    font-family: "Funnel Sans", sans-serif;
+    font-style: normal;
+}
+
 .header-container {
     background-color: rgb(13, 27, 42);
     color: white;
@@ -15,9 +25,9 @@ body {
 
 .header-left {
     display: flex;
-    font-size: 30px;
+    font-size: 20px;
     align-items: center;
-    margin: 20px;
+    margin: 25px;
 }
 
 .header-links {
@@ -36,6 +46,7 @@ body {
     font-size: 20px;
     cursor: pointer;
     box-shadow: 0px 5px 5px rgba(39, 80, 168, 0.5);
+    font-family: "Funnel Sans", sans-serif;
 }
 
 .home-page-button:hover {
@@ -45,7 +56,7 @@ body {
     box-shadow: 0px 5px 5px rgba(110, 149, 235, 0.5);
 }
 
-/*I did use some AI to help me with the dropdown menu, but I customised it myself*/
+/*Note: I did use some AI to help me with the dropdown menu, but I customised it myself.*/
 .dropdown-button {
     background-color: rgb(65, 90, 119);
     border: 2px solid rgb(119, 141, 169);
@@ -56,6 +67,7 @@ body {
     cursor: pointer;
     width: 150px;
     box-shadow: 0px 5px 5px rgba(39, 80, 168, 0.5);
+    font-family: "Funnel Sans", sans-serif;
 }
 
 .header-dropdown {
@@ -78,6 +90,7 @@ body {
     padding: 14px 20px;
     text-decoration: none;
     display: block;
+    font-family: "Funnel Sans", sans-serif;
 }
 
 .dropdown-links a:hover {
@@ -113,6 +126,14 @@ body {
     background-attachment: fixed;
 }
 
+.intro h1 {
+    font-size: 60px;
+}
+
+.intro h3 {
+    font-size: 25px;
+}
+
 .portfolio-cards {
     display: flex;
     justify-content: center;
@@ -139,7 +160,7 @@ body {
 }
 
 .project1-card-container:hover, .project2-card-container:hover, .project3-card-container:hover, .project4-card-container:hover, .project5-card-container:hover, .project6-card-container:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
     box-shadow: 0px 5px 5px rgba(110, 149, 235, 0.5);
 }
 
@@ -159,6 +180,7 @@ body {
     border-radius: 0px 0px 22px 22px;
     display: flex;
     background-color: rgb(65, 90, 119);
+    flex-direction: column;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -172,6 +194,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 20px;
+    font-family: "Funnel Sans", sans-serif;
 }
 
 .footer-links img { 
@@ -183,7 +206,7 @@ body {
 
 .footer-links img:hover {
     transform: scale(1.1);
-    box-shadow: 0px 10px 10px rgba(39, 80, 168, 0.5);       
+    box-shadow: 0px 5px 5px rgba(110, 149, 235, 0.5);      
 }
 
 .p1-cards {
@@ -194,7 +217,6 @@ body {
     padding: 20px;
 }
 
-
 .p1-card1-container, .p1-card2-container {
     display: flex;
     background-color: rgb(119, 141, 169);
@@ -202,7 +224,7 @@ body {
     justify-content: center;
     color: white;
     width: 850px;
-    height: 600px;
+    height: 100%;
     margin: 20px;
     border-radius: 30px;
     padding: 10px;
@@ -230,12 +252,12 @@ body {
     justify-content: center;
     align-items: center;
     padding: 20px;
-    height: 700px;
+    height: 100%;
     font-size: 20px;
 }
 
 .p1-card1-container:hover, .p1-card2-container:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
     box-shadow: 0px 5px 5px rgba(110, 149, 235, 0.5);
 }
 
