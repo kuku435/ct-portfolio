@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="My Portfolio Website, that shows off my projects and work in computing technology.">
+    <title>Project 1</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="favicon.jpg">
+</head>
+
+<body class="project-1">
+    <header>
+        <div class="header-container">
+            <div class="header-left">
+                <h1>My Portfolio</h1>
+            </div>
+            <nav class="header-links">
+                <div class="home-page-container">
+                    <a class="home-page" href="index.html">
+                        <button class="home-page-button">Home</button>
+                    </a>
+                </div>
+                <!--Note: I did use some AI to help me with the dropdown menu.-->
+                <div class="header-dropdown">
+                    <button class="dropdown-button">Projects ▼</button>
+                    <div class="dropdown-links">
+                        <a href="project-1-website.html">Project 1</a>
+                        <a href="project-2-data_analysis.html">Project 2</a>
+                        <a href="project-3-desk_display.html">Project 3</a>
+                        <a href="project-4-website.html">Project 4</a>
+                        <a href="project-5-website.html">Project 5</a>
+                        <a href="project-6-website.html">Project 6</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="intro">
+            <h1>Welcome to My Arduino Project</h1>
+            <h3>This is my third project, I was tasked with creating a simple Arduino-based project that would
+                demonstrate my understanding of
+                how systems interact with each other through inputs, processes, and outputs.</h3>
+        </div>
+        <div class="p3-cards">
+            <div class="p3-card1-container">
+                <div class="p3-card1-top">
+                    <h1>My Reflection</h1>
+                </div>
+                <div class="p3-card1-bottom">
+                    <h3>Overall, I am happy with how my Arduino desk display has turned out, however I think that I
+                        could have improved with
+                        slightly more time and guidance.</h3>
+                    <p>Over the course of the term I have learned a lot about microcontrollers and hardware systems and
+                        the use of Arduinos in
+                        class has been a good way to test both coding skills and gain knowledge on how these software
+                        systems communicate with
+                        each other to eventually end up communicating with hardware.</p>
+                    <p>I think that my final design was good but could be improved with further work. I had included a
+                        working clock that gave
+                        the time from my PC system clock down to the second, the date and day also from my PC, the
+                        weather and temperature from
+                        the external API “meteo.com”. The choice of adding the weather and temperature over other
+                        alternatives worked well
+                        because I was able to get a fully designed working product in the time limit along with the
+                        necessary clock. I also like
+                        my layout with one side dedicated to the time and the other for the forecast and the day/date.
+                    </p>
+                    <p>Some challenges faced when designing and adding systems to my desk display were the fact that it
+                        was sometimes difficult
+                        to understand how certain things worked and how the python script output was read by the arduino
+                        script. However because
+                        of this I became more independent and with enough time and debugging I was able to figure out
+                        how to combine and
+                        manipulate the output of the python script to work with the arduino script and output the
+                        correct thing.</p>
+                    <p>Through this task I learned how to code Arduinos and how data can be transferred through systems.
+                        At the start I was
+                        very confused on how to code for the Arduino with the LCD shield but through time I got much
+                        better and started learning
+                        new things that were not mentioned in class such as shapes which were useful to black out
+                        changing text instead of
+                        forcing the whole screen to update.</p>
+                    <p>Ultimately, this task taught me a lot about how systems work and new coding languages such as
+                        python and C/C++ for the
+                        Arduino. I found it fun and interesting to learn about these systems and learn how to code in
+                        these languages myself.</p>
+                </div>
+            </div>
+            <div class="p3-card2-container">
+                <div class="p3-card2-top">
+                    <h1>My Arduino</h1>
+                </div>
+                <div class="p3-card2-bottom">
+                    <h3>This is a picture of my Arduino when it is powered on and connected to the Python script:</h3>
+                    <img class="arduino-image" src="ArduinoDeskDisplay.png" alt="Image of my Arduino desk display">
+                </div>
+            </div>
+            <div class="p3-card3-container">
+                <div class="p3-card3-top">
+                    <h1>Arduino IDE Code</h1>
+                </div>
+                <div class="p3-card3-bottom">
+                    <h3>This is an image of my Arduino IDE code:</h3>
+                    <img class="arduino-ide-code" src="ArduinoIDECode.png" alt="Image of my Arduino IDE code">
+                </div>
+            </div>
+            <div class="p3-card4-container">
+                <div class="p3-card4-top">
+                    <h1>Python Script</h1>
+                </div>
+                <div class="p3-card4-bottom">
+                    <h3>This is an image of my Python script:</h3>
+                    <img class="python-script-p3" src="PythonCodeP3.png" alt="Image of my Python code">
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-left">
+                <h2>© 2026 My Portfolio.</h2>
+            </div>
+            <nav class="footer-links">
+                <a href="https://github.com/kuku435"><img src="Octicons-mark-github.svg.png" alt="My GitHub Page"></a>
+            </nav>
+        </div>
+    </footer>
+</body>
+
+</html>
