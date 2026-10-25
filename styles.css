@@ -288,14 +288,7 @@ h1, h2 {
     border-radius: 20px;
 }
 
-.arduino-ide-code {
-    width: auto;
-    height: auto;
-    border: none;
-    border-radius: 20px;
-}
-
-.python-script-p3 {
+.arduino-ide-code, .python-script-p3 {
     width: 100%;
     height: 100%;
     border: none;
